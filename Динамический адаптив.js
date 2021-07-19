@@ -1,6 +1,6 @@
 <script>
 /*
-   		 		data-to="(родительский класс) "_"-зазделение между ними (дочерний)" 
+   		 		data-to="(родительский класс) " "-зазделение между ними (дочерний)" 
    		 		
    		 		должен быть порядок классов
    		 		class=item1;
@@ -12,7 +12,7 @@
    		
    		 	var data_attr=$(blockSub).attr("data-to");
    		var arrive;
-   		var split= data_attr.split("_");	
+   		var split= data_attr.split(" ");	
    		 	 		
    		 if(split.length == 2){
    		 				arrive= split[0]+" "+split [1];
