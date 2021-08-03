@@ -1,6 +1,14 @@
-.nav__menu{
-				display:flex;
+.nav__list{
+   display:flex;
+   
+}
+@media(max-width:400px){
+.nav__list{
+   display:flex;
 				flex-direction: column;
+}
+.nav__menu{
+				
 				position: fixed;
   top:-100%;
   left:0;
@@ -18,8 +26,6 @@
 	margin-top:49px ; 
 	padding: 0;
 	padding-right: 25px;
-	position: fixed;
-	z-index:50;
 }
 
 .nav__body{
@@ -36,13 +42,15 @@
 }
 
 .nav__burger{
+
     margin-right:20px;
-				position: relative;
+				position: fixed;
+				right:0;
 				width:30px;
 				height:30px;
 				border-radius:100%;
 				background:#444;
-				z-index:6;
+				z-index:50;
 }
 .nav__burger:before ,
 .nav__burger:after{
