@@ -1,0 +1,122 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #0E1621;
+}
+
+.form-sign-in {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.form-sign-in__input {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    left: 0;
+}
+.form-sign-in__input label{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 10px;
+}
+.form-sign-in__input input{
+    display: block;
+    background-color: #2C5279;
+    border: none;
+    border-radius: 2px ;
+    height: 25px;
+    width: 80%;
+    margin-left: auto;
+    color: #fff;
+    margin-right: 10px;
+}
+.form-sign-in__submit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+.form-sign-in__submit input{
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background: none;
+}
+
+.text.on{
+    display: none;
+}
+
+
+/*---------------------------- Dialoges -----------------------------*/
+.button__top{
+    margin: 10px;
+    position: relative;
+}
+.dialoges {
+    position: relative;
+
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.button__top{
+    text-align: right;
+}
+.button__top a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.dialog {
+    margin-bottom: 10px;
+}
+.dialog__name {
+    font-size: 14px;
+    color: #fff;
+}
+.dialog__text {
+    margin-top: 5px;
+    display: block;
+    text-decoration:none;
+    padding: 5px;
+    width: 75%;
+    margin-left: auto;
+    background-color: #2C5279;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.button {
+    position: relative;
+    width: 100%;
+    height: 25px;
+}
+.button__left{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.button__right{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.button a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
