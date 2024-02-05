@@ -10,6 +10,18 @@
     background: #0E1621;
 }
 
+@media (min-width:320px) {
+    body{
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .wrapper{
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 240px;
+        min-height: 100%;
+    }
+}
 .form-sign-in {
     position: absolute;
     width: 100%;
@@ -125,34 +137,43 @@
     margin-bottom: 10px;
     text-align: right;
 }
+
 .dialog-right-text{
     margin:5px auto 0 0;
+    text-align: left;
 }
 .answer {
     background: #2C5279;
     padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.dialoges-padding{
+    padding-bottom: 50px;
 }
 .answer__form{
     display: block;
     margin: 0 10px;
     position: relative;
-    height: 22px;
+    height: 38px;
 }
 .answer__text{
     position: absolute;
     top: 0;
     left: 0;
     width: 76%;
-    height: 22px;
+    height: 38px;
 }
 .answer__send{
     position: absolute;
     top: 0;
     right: 0;
     width: 20%;
-    height: 22px;
+    height: 38px;
 }
-.answer__text input{
+.answer__text textarea{
     width: 100%;
     background: #fff;
     font-size: 12px;
@@ -168,5 +189,24 @@
     border: #fff 1px solid;
     padding: 5px 0;
     margin-left: auto;
+    height: 100%;
 }
-
+.question{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.question span{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 0 10px;
+}
+.question-answer{
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+    width: 100%;
+}
