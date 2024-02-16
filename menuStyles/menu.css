@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.body-menu {
+  font-family: "Lalezar", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("../menuImg/bg-Menu.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.projector {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 39.375rem;
+  height: 27.0625rem;
+}
+
+.projector img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  position: relative;
+  background-image: url("../menuImg/light.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100% 98%;
+  width: 90vw;
+  height: 100vh;
+  background-position: top left;
+}
+
+.menu__body {
+  position: absolute;
+  top: 11vh;
+  left: 9.375rem;
+}
+
+.menu__body li {
+  list-style: none;
+  margin-bottom: 4.6296296296vh;
+}
+
+.menu__body a {
+  font-size: 6rem;
+  color: #565656;
+  text-decoration: none;
+  line-height: 100%;
+}
+
+.account-control {
+  position: absolute;
+  top: 0;
+  right: 6.375rem;
+  background-image: url("../menuImg/lump.svg");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.account-control a {
+  display: inline-block;
+  padding: 9.25rem 2.5rem;
+}
+
+.account-control img {
+  width: 5.25rem;
+}
+
+.footer {
+  display: none;
+}
+
+.body-menu.mobil .menu {
+  margin-top: -3px;
+  background: none;
+  width: 100%;
+  height: auto;
+}
+
+.body-menu.mobil .projector {
+  display: none;
+}
+
+.body-menu.mobil .wrapper,
+.body-menu.mobil .account-control {
+  background: none;
+}
+
+.body-menu.mobil .wrapper {
+  background: #303030;
+  height: auto;
+  min-height: auto;
+}
+
+.body-menu.mobil .menu__body,
+.body-menu.mobil .account-control {
+  position: static;
+}
+
+.body-menu.mobil .menu__body a {
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+.body-menu.mobil .account-control {
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+  background-image: url("../menuImg/frame.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-menu.mobil .account-control a {
+  padding: 1.875rem 0;
+  margin: 0 0.625rem;
+}
+
+.body-menu.mobil .account-control img {
+  width: 1.875rem;
+  color: #fff;
+  fill-opacity: 0;
+}
+
+.body-menu.mobil .menu__body li {
+  margin: 0;
+  padding: 1rem 0;
+  margin: 0 1rem;
+  height: 18.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../menuImg/frame.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-menu.mobil .footer {
+  margin: -1px 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.5rem 0 1.25rem 0;
+  background-image: url("../menuImg/frame.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-menu.mobil .footer span {
+  display: block;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=menu.css.map */
